@@ -1,0 +1,71 @@
+/* #7ed56f
+#55c57a
+#28b485 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(238, 238, 0, 0.7), 
+        rgba(245, 229, 27, 0.7)), 
+    url(../img/daisies.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 75px;
+    transform: rotate(55deg);
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 40px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 20px;
+}
