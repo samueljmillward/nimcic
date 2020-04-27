@@ -1,0 +1,22 @@
+{
+  "name": "nimcic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samueljmillward/nimcic.git"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samueljmillward/nimcic/issues"
+  },
+  "homepage": "https://github.com/samueljmillward/nimcic#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}

@@ -1,0 +1,56 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary, 0.7), 
+        rgba($color-primary-light, 0.7)), 
+    url(../img/daisies.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+    &__logo-box {
+        position: absolute;
+    top: 4rem;
+    left: 4rem;
+    }
+
+    &__logo {
+        height: 7.5rem;
+        transform: rotate(55deg);
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+.heading-primary {
+    color:$color-black;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 12rem;
+        font-weight: 700;
+        letter-spacing: 4rem;
+    
+        animation: moveInLeft 3s ease-out;
+    }
+    
+    &--sub {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 400;
+        letter-spacing: 1.2rem;
+    
+        animation: moveInRight 3s ease-out;
+    }
+}
