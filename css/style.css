@@ -420,10 +420,13 @@ body {
 
 .header {
   height: 90vh;
-  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/daisies.jpg);
+  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/daisies-small.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/daisies.jpg); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -513,10 +516,13 @@ body {
 
 .section-features {
   padding: 12rem 0 15rem 0;
-  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/water.jpg);
+  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/water-small.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .section-features {
+      background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/water.jpg); } }
 
 .section-stories {
   padding: 12rem 0;
@@ -524,7 +530,10 @@ body {
 
 .section-partners {
   padding: 15rem 12rem 12rem 12rem;
-  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boat2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boats2-small.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .section-partners {
+      background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boats2.jpg); } }

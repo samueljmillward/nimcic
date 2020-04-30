@@ -10,10 +10,19 @@
         to right bottom, 
         rgba($color-primary, 0.7), 
         rgba($color-primary-light, 0.7)), 
-    url(../img/water.jpg);
+    url(../img/water-small.jpg);
     background-size: cover;
      background-position: center;
     position: relative;
+
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+           (min-width: 125em) {
+        background-image: linear-gradient(
+            to right bottom, 
+            rgba($color-primary, 0.7), 
+            rgba($color-primary-light, 0.7)), 
+        url(../img/water.jpg);
+    }
 }
 
 .section-stories {
@@ -27,8 +36,17 @@
         to right bottom, 
         rgba($color-primary, 0.7), 
         rgba($color-primary-light, 0.7)), 
-    url(../img/boat2.jpg);
+    url(../img/boats2-small.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+           (min-width: 125em) {
+        background-image: linear-gradient(
+            to right bottom, 
+            rgba($color-primary, 0.7), 
+            rgba($color-primary-light, 0.7)), 
+        url(../img/boats2.jpg);
+    }
 }

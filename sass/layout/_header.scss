@@ -4,12 +4,19 @@
         to right bottom, 
         rgba($color-primary, 0.7), 
         rgba($color-primary-light, 0.7)), 
-    url(../img/daisies.jpg);
+    url(../img/daisies-small.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
 
-    
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+           (min-width: 125em) {
+        background-image: linear-gradient(
+            to right bottom, 
+            rgba($color-primary, 0.7), 
+            rgba($color-primary-light, 0.7)), 
+        url(../img/daisies.jpg);
+    }
 
     // clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
