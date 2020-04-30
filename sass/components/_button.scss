@@ -33,6 +33,15 @@
             background-color: $color-white;
         }
     } 
+
+    &--primary {
+        background-color: $color-primary;
+        color: $color-grey-dark;
+
+        &::after {
+            background-color: $color-white;
+        }
+    }
     
     &::after {
         content: "";
