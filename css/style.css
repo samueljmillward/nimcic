@@ -530,10 +530,10 @@ body {
 
 .section-partners {
   padding: 15rem 12rem 12rem 12rem;
-  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boats2-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boat2-small.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
     .section-partners {
-      background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boats2.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(245, 235, 94, 0.7), rgba(241, 241, 24, 0.7)), url(../img/boat2.jpg); } }
