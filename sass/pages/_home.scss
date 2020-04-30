@@ -22,3 +22,18 @@
     padding: 12rem 0;
     background-color: $color-grey-light-1;
 }
+
+.section-partners {
+    padding: 12rem;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary, 0.7), 
+        rgba($color-primary-light, 0.7)), 
+    url(../img/water.jpg);
+    background-size: cover;
+     background-position: center;
+    position: relative;
+
+    
+
+}
