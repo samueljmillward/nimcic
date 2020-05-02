@@ -39,9 +39,8 @@
 }
 
 .partner-logo {
-    height: 50%;
-    width: 50%;
-
-    transform: translateX(9rem);
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
