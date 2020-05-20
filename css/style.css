@@ -59,11 +59,11 @@ body {
   color: #000;
   text-transform: uppercase;
   margin-bottom: 6rem;
-  font-family: 'Miss+Fajardose',  cursive;
+  font-family: none;
   color: white; }
   .heading-primary--main {
     display: block;
-    font-size: 8rem;
+    font-size: 18rem;
     font-weight: 400;
     letter-spacing: 4rem;
     animation: moveInLeft 3s ease-out; }
@@ -174,7 +174,7 @@ body {
 
 .btn--primary {
   background-color: #777;
-  color: #777; }
+  color: white; }
   .btn--primary::after {
     background-color: #fff; }
 
@@ -298,6 +298,9 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    .popup__right__btn {
+      color: white;
+      z-index: 999; }
   .popup__img {
     display: block;
     width: 100%; }
@@ -556,9 +559,14 @@ body {
         float: none;
         text-align: center; } }
 
+.fb-like {
+  display: flex;
+  justify-content: space-evenly;
+  transform: translateX(50rem) translateY(-1.5rem); }
+
 .section-about {
   background-color: #f7f7f7;
-  padding: 30rem 0;
+  padding: 30rem 0 20rem 0;
   margin-top: -20vh; }
 
 .section-features {
@@ -573,7 +581,7 @@ body {
 
 .section-gallery {
   background-color: #f7f7f7;
-  padding: 10rem 0 0 0; }
+  padding: 10rem 0 5rem 0; }
 
 .section-stories {
   padding: 12rem 0;

@@ -34,6 +34,11 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        &__btn {
+            color: white;
+            z-index: 999;
+        }
     }
 
     &__img {

@@ -76,3 +76,9 @@
         }
     }
 }
+
+.fb-like {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateX(50rem) translateY(-1.5rem);
+}

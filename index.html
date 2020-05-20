@@ -8,12 +8,16 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Miss-Fajardose&display=swap"
         rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
     <header class="header">
         <div class="header__logo-box">
             <img src="img/logo.jpg" alt="logo" class="header__logo">
@@ -53,9 +57,9 @@
                         Participate in the development of projects that will support new and existing businesses in New
                         Islington Marina and the surrounding Ancoats area.
                     </p>
-                    <a href="#popup" class="btn-text">
+                    <!-- <a href="#popup" class="btn-text">
                         Learn more &rarr;
-                    </a>
+                    </a> -->
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
@@ -231,6 +235,9 @@
         <div class="footer__logo-box">
             <img src="img/logo.jpg" alt="Full logo" class="footer__logo">
         </div>
+        <div class="fb-like" data-href="https://www.facebook.com/nimcic/" data-width="21" data-layout="button_count"
+            data-action="like" data-size="large" data-share="false">
+        </div>
         <div class="row">
             <div class="col-1-of-2">
                 <div class="footer__navigation">
@@ -242,12 +249,14 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-1-of-2">
                 <p class="footer__copyright">
                     &copy;NIMCIC
                 </p>
             </div>
         </div>
+
     </footer>
 
     <div class="popup" id="popup">
@@ -277,7 +286,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
