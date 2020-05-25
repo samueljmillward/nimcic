@@ -23,7 +23,6 @@
         padding-top: 2rem;
         display: inline-block;
 
-
         @include respond(tab-port){
             width: 100%;
             text-align: center;
@@ -75,9 +74,24 @@
         }
     }
 }
+.social__buttons {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 2rem;
 
 .fb-like {
-    display: flex !important;
-    justify-content: center;
-    margin-bottom: 2rem;
+    
+}
+
+.fa-instagram {
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    }
 }

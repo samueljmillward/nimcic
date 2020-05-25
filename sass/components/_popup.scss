@@ -27,6 +27,10 @@
     &__left {
         width: 33.333333%;
         display: table-cell;
+
+        @include respond(phone){
+            display:none;
+        }
     }
 
     &__right {
@@ -47,21 +51,16 @@
     }
 
     &__text {
-        font-size: 1.4rem;
+        font-size: 2rem;
         margin-bottom: 4rem;
 
         -moz-column-count: 2;
         -moz-column-gap: 4rem; 
         -moz-column-rule: 1px solid $color-grey-light-2;
 
-        column-count: 2;
+        column-count: 1;
         column-gap: 4rem; 
         column-rule: 1px solid $color-grey-light-2;
-
-        -moz-hyphens: auto;
-        -ms-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
     }
 
     //Open states

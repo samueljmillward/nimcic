@@ -104,4 +104,9 @@ body {
     &:not(:last-child) {
         margin-bottom: 3rem;
     }
+
+    &__profit {
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
 }

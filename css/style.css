@@ -132,6 +132,9 @@ body {
   font-size: 1.6rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+  .paragraph__profit {
+    font-size: 1.6rem;
+    font-weight: 800; }
 
 .u-center-text {
   text-align: center; }
@@ -201,7 +204,8 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #777;
   padding: 3px;
-  transition: all .2s; }
+  transition: all .2s;
+  transform: translateY(3rem); }
 
 .btn-text:hover {
   background-color: #777;
@@ -293,6 +297,9 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media only screen and (max-width: 37.5em) {
+      .popup__left {
+        display: none; } }
   .popup__right {
     width: 66.6666667%;
     display: table-cell;
@@ -305,18 +312,14 @@ body {
     display: block;
     width: 100%; }
   .popup__text {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 4rem;
     -moz-column-count: 2;
     -moz-column-gap: 4rem;
     -moz-column-rule: 1px solid #eee;
-    column-count: 2;
+    column-count: 1;
     column-gap: 4rem;
-    column-rule: 1px solid #eee;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto; }
+    column-rule: 1px solid #eee; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -559,10 +562,20 @@ body {
         float: none;
         text-align: center; } }
 
-.fb-like {
+.social__buttons {
   display: flex !important;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   margin-bottom: 2rem; }
+  .social__buttons .fa-instagram {
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); }
 
 .section-about {
   background-color: #f7f7f7;
