@@ -34,6 +34,7 @@
     }
 
     &__right {
+        font-size: 1.6rem;
         width: 66.6666667%;
         display: table-cell;
         vertical-align: middle;
@@ -52,7 +53,6 @@
 
     &__text {
         font-size: 2rem;
-        margin-bottom: 4rem;
 
         -moz-column-count: 2;
         -moz-column-gap: 4rem; 

@@ -301,6 +301,7 @@ body {
       .popup__left {
         display: none; } }
   .popup__right {
+    font-size: 1.6rem;
     width: 66.6666667%;
     display: table-cell;
     vertical-align: middle;
@@ -313,7 +314,6 @@ body {
     width: 100%; }
   .popup__text {
     font-size: 2rem;
-    margin-bottom: 4rem;
     -moz-column-count: 2;
     -moz-column-gap: 4rem;
     -moz-column-rule: 1px solid #eee;
@@ -568,10 +568,13 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 2rem; }
+  .social__buttons .fb-like {
+    margin-right: 2rem; }
   .social__buttons .fa-instagram {
     text-align: center;
     border-radius: 10px;
     color: #fff;
+    margin-right: 1rem;
     vertical-align: middle;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
