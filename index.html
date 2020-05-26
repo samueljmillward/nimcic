@@ -84,41 +84,45 @@
             <div class="row">
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-anchor"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">The Marina</h3>
-                        <p class="feature-box__text">
-                            Development of New Islington Marina
-                        </p>
+                        <a href="#popup-marina"><i class="feature-box__icon icon-basic-anchor"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">The Marina</h3>
+                            <p class="feature-box__text">
+                                Development of New Islington Marina
+                            </p>
+                        </a>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-cloud"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Wildlife</h3>
-                        <p class="feature-box__text">
-                            Support and preserve Local Wildlife at New Islington
-                        </p>
+                        <a href="#popup-wildlife"><i class="feature-box__icon icon-basic-cloud"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Wildlife</h3>
+                            <p class="feature-box__text">
+                                Support and preserve Local Wildlife at New Islington
+                            </p>
+                        </a>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-picture"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Community Art</h3>
-                        <p class="feature-box__text">
-                            Promote our Local Artists in the area
-                        </p>
+                        <a href="#popup-art"><i class="feature-box__icon icon-basic-picture"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Community Art</h3>
+                            <p class="feature-box__text">
+                                Promote our Local Artists in the area
+                            </p>
+                        </a>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box__icon icon-basic-life-buoy"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Canal Festival</h3>
-                        <p class="feature-box__text">
-                            Organise and Host an Annual Festival
-                        </p>
+                        <a href="#popup-festival"><i class="feature-box__icon icon-basic-life-buoy"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Canal Festival</h3>
+                            <p class="feature-box__text">
+                                Organise and Host an Annual Festival
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -234,10 +238,16 @@
         <div class="footer__logo-box">
             <img src="img/logo.jpg" alt="Full logo" class="footer__logo">
         </div>
-        <div class="social__buttons">
-            <a href="https://www.instagram.com/nimcic/"><i class="fa fa-instagram fa-3x"></i></a>
-            <div class="fb-like" data-href="https://www.facebook.com/nimcic/" data-width="" data-layout="button_count"
-                data-action="like" data-size="large" data-share="true"></div>
+        <div class="paypal">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="nimcic@yahoo.com" />
+                <input type="hidden" name="currency_code" value="GBP" />
+                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0"
+                    name="submit" title="PayPal - The safer, easier way to pay online!"
+                    alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
+            </form>
         </div>
 
         </div>
@@ -248,17 +258,17 @@
                         <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
                         <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
                         <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-1-of-2">
-                <p class="footer__copyright">
-                    &copy;NIMCIC
-                </p>
+                <div class="footer__social-media">
+                    <a href="https://www.instagram.com/nimcic/"><i class="fa fa-instagram fa-3x"></i></a>
+                    <div class="fb-like" data-href="https://www.facebook.com/nimcic/" data-width=""
+                        data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
+                </div>
             </div>
-        </div>
     </footer>
 
     <div class="popup" id="popup">
@@ -280,6 +290,107 @@
                     <ul>Operate in collaboration with the local community and partners in the area who share our vision
                         for
                         Ancoats and New Islington.</ul>
+                </p>
+                <br>
+                <a href="#" class="btn btn--primary btn--animated">OK</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-marina">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/boat.jpg" alt="Narrowboat" class="popup__img">
+                <img src="img/water.jpg" alt="New Islington Marina" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <h2 class="heading-secondary">Managing Our Space</h2>
+                <!-- <h3 class="heading-tertiary"></h3> -->
+                <p class="popup__text">
+                    <br>
+                    The residents of New Islington Marina would like to manage the space where we live. We have
+                    substantial knowledge of the marina and all of it’s inhabitants whether they be animal or human. We
+                    know our space better than anyone, therefore we are the best-placed people to take the best care of
+                    it and make it better for the local people and visitors.
+                </p>
+                <br>
+                <a href="#" class="btn btn--primary btn--animated">OK</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-wildlife">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/chick.jpg" alt="chick" class="popup__img">
+                <img src="img/cygnets.jpg" alt="cygnets" class="popup__img">
+                <img src="img/chick2.jpg" alt="cygnets" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <h2 class="heading-secondary">Our Wild Neighbours and Friends</h2>
+                <!-- <h3 class="heading-tertiary"></h3> -->
+                <p class="popup__text">
+                    <br>
+                    NIMIC’s first real project is very much on-going. Since 2018, we noticed a substantial decline in
+                    the Wildlife in and around the Marina. We recognise that City Wildlife is important for community
+                    mental health so we strive to regenerate the park back to it’s former glory days when it teemed with
+                    wildlife.
+                    <br>
+                    After seeing 2 years of unsuccessful and miserable breeding seasons, in spring 2020, NIMCIC took the
+                    initiative to give the wildlife a little helping hand. We gathered nesting materials and fixed up
+                    the old floating nests and made them safer in the hope our friends on the water would build strong
+                    and healthy nests – they did!
+                    <br>
+                    So far, Spring 2020 has been a phenomenal success.
+                </p>
+                <br>
+                <a href="#" class="btn btn--primary btn--animated">OK</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-art">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/dudeonboat.jpg" alt="Dude On Boat" class="popup__img">
+                <img src="img/dudeonboat2.jpg" alt="Dude On Boat" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <h2 class="heading-secondary">Community Arts</h2>
+                <!-- <h3 class="heading-tertiary"></h3> -->
+                <p class="popup__text">
+                    <br>
+                    Manchester just oozes ART!
+                    <br>
+                    NIMCIC would be interested to use space in the marina to enable local artists and school children a
+                    space to collaborate and get involved in making the area a more vibrant and cool place to visit. We
+                    hope to gain public funding for this project and would appreciate as much community support as
+                    possible.
+                    <br>
+                    We will update on social media for this project as and when more information is available.
+                </p>
+                <br>
+                <a href="#" class="btn btn--primary btn--animated">OK</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-festival">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/boat2.jpg" alt="Narrowboat" class="popup__img">
+                <img src="img/daisies.jpg" alt="Daisies" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <h2 class="heading-secondary">Annual Canal Festivals</h2>
+                <!-- <h3 class="heading-tertiary"></h3> -->
+                <p class="popup__text">
+                    <br>
+                    As we progress and grow, and with the support of the community, NIMCIC would like to co-ordinate an
+                    annual canal festival for local people and visitors to enjoy. The festival would be a 2/3 day arts,
+                    food and cultural event focusing on the canals and the marina.
+                    <br>
+                    What would you like to see?
                 </p>
                 <br>
                 <a href="#" class="btn btn--primary btn--animated">OK</a>
