@@ -58,12 +58,15 @@
         padding-top: 2rem;
         width: 80%;
         float: right;
+        display: flex; 
+        align-items: center;
 
         @include respond(tab-port){
             border-top: none;
             width: 100%;
             float: none;
             text-align: center;
+            justify-content: center;
         }
     }
 }
