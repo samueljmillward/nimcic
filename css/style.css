@@ -67,14 +67,16 @@ body {
   color: white; }
   .heading-primary--main {
     display: block;
-    font-size: 18rem;
+    font-size: 15rem;
     font-weight: 400;
     letter-spacing: 4rem;
     animation: moveInLeft 3s ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 3rem;
-        font-family: 5rem;
+        font-size: 6rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .heading-primary--main {
         font-size: 7rem; } }
     @media (max-width: 21.875em) {
       .heading-primary--main {
@@ -121,6 +123,7 @@ body {
 .heading-quaternary {
   font-size: 3.5rem;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 700;
   display: flex;
   justify-content: center;
