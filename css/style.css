@@ -621,6 +621,9 @@ body {
     font: 'sans-serif';
     display: flex;
     align-self: center; }
+    @media only screen and (max-width: 37.5em) {
+      .section-partners h2 {
+        font-size: 1.8rem; } }
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
     .section-partners {
       background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.7), rgba(153, 153, 153, 0.7)), url(../img/boat2.jpg); } }
