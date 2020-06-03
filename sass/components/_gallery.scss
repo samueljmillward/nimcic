@@ -10,7 +10,9 @@
     margin: 0 2rem;
 
     @include respond(phone) {
+        gap: 0.5rem;
         margin: 0;
+        padding: 2rem 1rem 2rem 1rem;
     }
 
     &__item {
