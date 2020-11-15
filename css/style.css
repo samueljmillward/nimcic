@@ -186,7 +186,7 @@ body {
 }
 
 .heading-author {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 800;
   text-align: right;
@@ -204,7 +204,6 @@ body {
 
 .paragraph__aims {
   font-size: 1.6rem;
-  font-weight: 800;
 }
 
 .u-center-text {
